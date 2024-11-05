@@ -15,7 +15,7 @@ public class Main {
 
         // Set discount strategy
         Checkout checkout = new Checkout();
-        checkout.setDiscountStrategy(new SeasonalDiscount()); // You can change to LoyaltyDiscount to test other discounts
+        checkout.setDiscountStrategy(new SeasonalDiscount());
 
         // Apply discount
         double discountedPrice = checkout.finalizePrice(total);
