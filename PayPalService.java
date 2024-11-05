@@ -9,6 +9,5 @@ class PayPalService {
 
     public void makePayment(double amount) {
         System.out.println("Processing payment of $" + amount + " through PayPal.");
-        // Here you would typically include API call to PayPal
     }
 }
